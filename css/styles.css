@@ -55,6 +55,10 @@ p {
   padding: 0 18px;
 }
 
+.nav-list {
+  padding: 0;
+}
+
 .nav-link {
   font-size: 1rem;
   font-weight: 300;
@@ -140,8 +144,10 @@ p {
      transform: rotate(0);
    }
    .container-fluid {
-     padding-bottom: 0;
      text-align: center;
+   }
+   .nav-list {
+     text-align: left;
    }
 
  }
